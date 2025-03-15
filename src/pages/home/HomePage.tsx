@@ -5,7 +5,9 @@ const HomePage = () => {
     <div>
       <h1 className="text-3xl">Home Page</h1>
       <p className="font-light">Welcome to the Home Page</p>
-      <Button />
+      <Button width="auto" variant="outline" sentiment="info">
+        Click Me!!
+      </Button>
     </div>
   );
 };
