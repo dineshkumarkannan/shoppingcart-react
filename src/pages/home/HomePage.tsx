@@ -1,4 +1,5 @@
 import Button from "../../components/button/Button";
+import CategoryMenuItem from "../../components/category-menu-item/CategoryMenuItem";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Button width="auto" variant="outline" sentiment="info">
         Click Me!!
       </Button>
+      <CategoryMenuItem></CategoryMenuItem>
     </div>
   );
 };
